@@ -1,0 +1,39 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'Musica de calidad'
+theme = 'lightbi-hugo'
+
+[menu]
+  [[menu.main]]
+    identifier = "Inicio"
+    name = "Inicio"
+    title = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 2
+[[menu.main]]
+    identifier = "discos"
+    name = "Discos"
+    title = "discos"
+    url = "/discos"
+    weight = 3
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "about"
+    url = "/about/aboutMe"
+    weight = 4
+
+[params]
+  Mmcd = "Me Muevo Con Dios"
+  utopia = "Utopia"
+  dqe = "Donde Quiero Estar"
+
+
+
+
